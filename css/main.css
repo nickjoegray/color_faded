@@ -85,8 +85,26 @@ li a {
     display: block;
     padding: 0.25em;
     border-bottom: 0.165em solid #96BF1F;
+    -moz-transition: background-color .3s ease-in;
+    -webkit-transition: background-color .3s ease-in;
+    -o-transition: background-color .3s ease-in;
+    transition: background-color .3s ease-in;
 }
 
+li a:hover {
+    background-color: #96BF1F;
+    color: #FFF;
+    -moz-transition: background-color 0.01s;
+    -webkit-transition: background-color 0.01s;
+    -o-transition: background-color 0.01s;
+    transition: background-color 0.01s;
+}
+
+@media only screen and (max-width:35em) {
+    ul {
+        width: 60%;
+    }
+}
 
 
 /* ==========================================================================
