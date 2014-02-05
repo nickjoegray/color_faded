@@ -76,14 +76,16 @@ h1 {
 
 li {
     list-style-type: none;
+    font-size: 18px;
 }
 
 li a {
+    color: #CCC;
+    text-decoration: none;
     display: block;
+    padding: 0.25em;
+    border-bottom: 0.165em solid #96BF1F;
 }
-
-
-
 
 
 
