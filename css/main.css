@@ -60,14 +60,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: #FFFFFF;
+}
 
+ul {
+    width: 30%;
+    float:left;
+}
 
+h1 {
+    text-align: center;
+    font-family: Avenir Next;
+}
 
+li {
+    list-style-type: none;
+}
 
-
-
-
-
+li a {
+    display: block;
+}
 
 
 
